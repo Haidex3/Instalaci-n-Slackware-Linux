@@ -12,7 +12,10 @@
 
 ![Repositorio Github](Imagenes/Captura3.png)
 
-** - Configuramos un idioma para el teclado, en mi caso el idioma español
+** - Una vez iniciado se configuramos un idioma para el teclado, en mi caso el idioma español
 
 ![Repositorio Github](Imagenes/Captura4.png)
 
+** - Se inicia sesion como "root"
+
+![Repositorio Github](Imagenes/Captura5.png)
