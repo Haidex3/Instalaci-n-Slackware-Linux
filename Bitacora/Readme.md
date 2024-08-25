@@ -18,4 +18,4 @@
 
 ** - Se inicia sesion como "root"
 
-![Repositorio Github](Imagenes/Captura5.png)
+![Repositorio Github](Imagenes/Captura.png)
