@@ -6,8 +6,8 @@
 
 **3.0 GB de almacenamiento**
 
-![Repositorio Github](Captura2.png)
+![Repositorio Github](Imagenes/Captura2.png)
 
 ### El segundo paso es seleccionar la imagen ISO de slackware al DVD virtual
 
-![Repositorio Github](Captura3.png)
+![Repositorio Github](Imagenes/Captura3.png)
