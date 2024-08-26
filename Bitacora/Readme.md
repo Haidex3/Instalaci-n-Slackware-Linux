@@ -44,5 +44,15 @@
 
 ![Repositorio Github](Imagenes/Captura11.png)
 
+**-Repetimos el proceso para una nueva particion pero de tipo "Linux"
 
+![Repositorio Github](Imagenes/Captura12.png)
+
+**-Elegimos "write" para escribir las dos particiones, y aceptamos esta accion con "yes"**
+
+![Repositorio Github](Imagenes/Captura13.png)
+
+**- Salimos del apartado**
+
+![Repositorio Github](Imagenes/Captura14.png)
 
