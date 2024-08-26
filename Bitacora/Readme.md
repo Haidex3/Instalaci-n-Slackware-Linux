@@ -56,3 +56,18 @@
 
 ![Repositorio Github](Imagenes/Captura14.png)
 
+**- Verificamos que se hayan creado las particiones correctamente**
+
+![Repositorio Github](Imagenes/Captura15.png)
+
+**- Como la primera partiicon no fue detectada correctamente como "Swap", realizamos su activacion**
+
+![Repositorio Github](Imagenes/Captura16.png)
+
+**- Ahora continuamos iniciando el "setup"
+
+![Repositorio Github](Imagenes/Captura17.png)
+
+**- En este caso como ya tenemos definido nuestro "keymap" continuamos con "AddSwap", donde nos detecta la primera particion como una posible ubicaion del swap, a lo que aceptaremos**
+
+![Repositorio Github](Imagenes/Captura18.png)
