@@ -104,4 +104,37 @@
 
 ![Repositorio Github](Imagenes/Captura26.png)
 
+**- Instalamos Lilo**
+
+![Repositorio Github](Imagenes/Captura27.png)
+
+**- Elegimos la forma estandar**
+
+![Repositorio Github](Imagenes/Captura28.png)
+
+**- En este punto no es necesario poner parametros**
+
+![Repositorio Github](Imagenes/Captura29.png)
+
+**- En este caso vamos a seleccionar el "mbr" como destino para la instalacion de LILO
+
+![Repositorio Github](Imagenes/Captura30.png)
+
+**- Elegimos que servicios queremos en el inicio**
+
+![Repositorio Github](Imagenes/Captura31.png)
+
+**- Configuraciones varias**
+
+![Repositorio Github](Imagenes/Captura32.png)
+
+![Repositorio Github](Imagenes/Captura33.png)
+
+**- Configuramos una contraseña para el usuario**
+
+![Repositorio Github](Imagenes/Captura34.png)
+
+**- Y con esto terminamos la parte del "Setup", ahora reiniciamos**
+
+![Repositorio Github](Imagenes/Captura35.png)
 
