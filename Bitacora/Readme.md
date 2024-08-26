@@ -20,10 +20,29 @@
 
 ![Repositorio Github](Imagenes/Captura5.png)
 
-**- Se usa el comando "cfdisk**
+### Para empezar el proceso de particion se usa el comando "cfdisk**
 
 ![Repositorio Github](Imagenes/Captura6.png)
 
 **- Lo que nos da acceso al siguiente menú, donde se selecciona la opcion "dos"**
 
 ![Repositorio Github](Imagenes/Captura7.png)
+
+**- Le damos a agregar una nueva particion:**
+
+![Repositorio Github](Imagenes/Captura8.png)
+
+**- Elegimos su tamaño en mi caso "1.5G"**
+
+![Repositorio Github](Imagenes/Captura9.png)
+
+**- Se pone de tipo primario**
+
+![Repositorio Github](Imagenes/Captura10.png)
+
+**- Cambiamos su tipo a "Linux Swap"**
+
+![Repositorio Github](Imagenes/Captura11.png)
+
+
+
