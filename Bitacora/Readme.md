@@ -96,5 +96,8 @@
 
 ![Repositorio Github](Imagenes/Captura24.png)
 
+**- La primer parte debemos instalarla obligatoriamente**
+
+![Repositorio Github](Imagenes/Captura25.png)
 
 
