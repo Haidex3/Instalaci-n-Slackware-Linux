@@ -12,18 +12,18 @@
 
 ![Repositorio Github](Imagenes/Captura3.png)
 
-** - Una vez iniciado se configuramos un idioma para el teclado, en mi caso el idioma español
+** - Una vez iniciado se configuramos un idioma para el teclado, en mi caso el idioma español**
 
 ![Repositorio Github](Imagenes/Captura4.png)
 
-** - Se inicia sesion como "root"
+** - Se inicia sesion como "root"**
 
 ![Repositorio Github](Imagenes/Captura5.png)
 
-** - Se usa el comando "cfdisk
+** - Se usa el comando "cfdisk**
 
 ![Repositorio Github](Imagenes/Captura6.png)
 
-** - Lo que nos da acceso al siguiente menú, donde se selecciona la opcion "dos"
+** - Lo que nos da acceso al siguiente menú, donde se selecciona la opcion "dos"**
 
 ![Repositorio Github](Imagenes/Captura7.png)
