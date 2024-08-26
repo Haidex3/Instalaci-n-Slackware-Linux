@@ -138,3 +138,8 @@
 
 ![Repositorio Github](Imagenes/Captura35.png)
 
+### El cuarto paso es configurar una tarjeta de red de la siguiente manera:
+
+![Repositorio Github](Imagenes/Captura36.png)
+
+
