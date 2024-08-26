@@ -71,3 +71,30 @@
 **- En este caso como ya tenemos definido nuestro "keymap" continuamos con "AddSwap", donde nos detecta la primera particion como una posible ubicaion del swap, a lo que aceptaremos**
 
 ![Repositorio Github](Imagenes/Captura18.png)
+
+**- Una vez aceptado nos indica que el "sawp" ya fue configurado**
+
+![Repositorio Github](Imagenes/Captura19.png)
+
+**- Seleccionamos la particion donde queremos que se instale el sistema**
+
+![Repositorio Github](Imagenes/Captura20.png)
+
+**-En nuestro caos vamos a sellecionar el "Filesystem" ext4**
+
+![Repositorio Github](Imagenes/Captura21.png)
+
+**-Seleccionamos la primer opcion de la instalacion**
+
+![Repositorio Github](Imagenes/Captura22.png)
+
+**- Configuramos lo que queremos que se instale**
+
+![Repositorio Github](Imagenes/Captura23.png)
+
+**- Elegimos una instalacion guiada, para poder controlar el almacenamiento que vamos a usar**
+
+![Repositorio Github](Imagenes/Captura24.png)
+
+
+
