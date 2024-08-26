@@ -100,4 +100,8 @@
 
 ![Repositorio Github](Imagenes/Captura25.png)
 
+**- Luego de configurar todo lo que queriamos instalado, con aparecesara la siguiente opcion, en nuestro caso le dare "skip"**
+
+![Repositorio Github](Imagenes/Captura26.png)
+
 
