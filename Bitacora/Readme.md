@@ -1,5 +1,5 @@
 # Instalación-Slackware-Linux
-### El primer caso el la configuración del sistema con la carateristicas solicitadas
+### El primer paso es la configuración del sistema con la carateristicas solicitadas
 **- 700MiB de memoria**
 
 ![Repositorio Github](Imagenes/Captura1.png)
@@ -18,4 +18,12 @@
 
 ** - Se inicia sesion como "root"
 
-![Repositorio Github](Imagenes/Captura.png)
+![Repositorio Github](Imagenes/Captura5.png)
+
+** - Se usa el comando "cfdisk
+
+![Repositorio Github](Imagenes/Captura6.png)
+
+** - Lo que nos da acceso al siguiente menú, donde se selecciona la opcion "dos"
+
+![Repositorio Github](Imagenes/Captura7.png)
