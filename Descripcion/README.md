@@ -12,3 +12,12 @@ La **virtualización** es una tecnología que permite crear versiones virtuales 
 - Virtualización de escritorio: Permite ejecutar entornos de escritorio en servidores remotos, accesibles desde cualquier dispositivo, mejorando la movilidad y la seguridad.
 
 - Virtualización de aplicaciones: Ejecuta aplicaciones en un entorno separado del sistema operativo subyacente, facilitando su implementación y gestión
+ **- Diferentes herramientas**
+  1. VMware Workstation
+
+    - Casa de desarrollo de software: VMware, Inc.
+    - Sistemas operativos sobre el que se instala: Windows, Linux.
+    - Sistemas operativos que puede virtualizar: Windows, Linux, BSD, Solaris, macOS (solo en versiones específicas), y otros sistemas operativos compatibles.
+    - Tipo de distribución: Software propietario.
+    - Costo: Comercial (requiere licencia de pago, aunque hay versiones de prueba disponibles).
+    - Descripción: VMware Workstation es una solución de virtualización de escritorios que permite a los usuarios ejecutar múltiples sistemas operativos en un solo equipo físico. Es ideal para desarrolladores, testers, y profesionales de TI que necesitan probar y desarrollar software en diferentes entornos sin necesidad de múltiples máquinas físicas.
