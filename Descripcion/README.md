@@ -133,15 +133,15 @@ Son un conjunto de reglas que determinan qué usuarios y grupos pueden leer, esc
 
 Cada archivo o directorio en Unix tiene tres tipos de permisos asociados, que se representan de la siguiente manera:
 
-1. **Lectura (r)**: Permite ver el contenido de un archivo o listar el contenido de un directorio.
-2. **Escritura (w)**: Permite modificar el contenido de un archivo o cambiar el contenido de un directorio (crear o eliminar archivos dentro del directorio).
-3. **Ejecución (x)**: Permite ejecutar un archivo (si es un programa o script) o entrar a un directorio.
+-  **Lectura (r)**: Permite ver el contenido de un archivo o listar el contenido de un directorio.
+-   **Escritura (w)**: Permite modificar el contenido de un archivo o cambiar el contenido de un directorio (crear o eliminar archivos dentro del directorio).
+-  **Ejecución (x)**: Permite ejecutar un archivo (si es un programa o script) o entrar a un directorio.
 
 Estos permisos se asignan a tres tipos de entidades:
 
-1. **Usuario (u)**: El propietario del archivo o directorio.
-2. **Grupo (g)**: El grupo de usuarios al que pertenece el archivo o directorio.
-3. **Otros (o)**: Todos los demás usuarios que no son ni el propietario ni parte del grupo.
+- **Usuario (u)**: El propietario del archivo o directorio.
+-  **Grupo (g)**: El grupo de usuarios al que pertenece el archivo o directorio.
+-  **Otros (o)**: Todos los demás usuarios que no son ni el propietario ni parte del grupo.
 
 ### **Visualización de permisos**
 
@@ -162,19 +162,47 @@ Esta cadena se interpreta de la siguiente manera:
 
 Los permisos pueden ser establecidos o modificados usando el comando `chmod` (change mode). Hay dos métodos para usar `chmod`: 
 
-1. **Modo simbólico**: Se especifican los permisos que se quieren agregar o quitar. Por ejemplo:
+-  **Modo simbólico**: Se especifican los permisos que se quieren agregar o quitar. Por ejemplo:
    - `chmod u+x archivo.txt` añade permiso de ejecución para el usuario.
    - `chmod g-w archivo.txt` quita el permiso de escritura para el grupo.
    - `chmod o+r archivo.txt` añade permiso de lectura para otros.
 
-2. **Modo numérico (octal)**: Los permisos se representan con números:
+- **Modo numérico (octal)**: Los permisos se representan con números:
    - **4** para lectura (r)
    - **2** para escritura (w)
    - **1** para ejecución (x)
    
    Los números se suman para combinar permisos. Por ejemplo, para dar permisos completos (lectura, escritura, ejecución) se utiliza 7 (4+2+1).
    - `chmod 755 archivo.txt` otorga permisos de lectura, escritura y ejecución al propietario (7), y solo lectura y ejecución al grupo y a otros (5+5).
+ 
+10. ### **Diez comandos de administración de Unix:**
 
-### **Resumen de cómo funcionan los permisos de Unix**
+1. **`ls`**: Lista los archivos y directorios en el directorio actual. Usado para ver el contenido de directorios.
+2. **`cd`**: Cambia el directorio de trabajo actual. Usado para navegar entre directorios.
+3. **`pwd`**: Muestra el directorio de trabajo actual. Útil para saber en qué directorio estás ubicado.
+4. **`cp`**: Copia archivos o directorios. Usado para duplicar archivos o directorios en otra ubicación.
+5. **`mv`**: Mueve o renombra archivos o directorios. Usado para cambiar la ubicación o el nombre de archivos y directorios.
+6. **`rm`**: Elimina archivos o directorios. Usado para borrar archivos o directorios del sistema.
+7. **`chmod`**: Cambia los permisos de archivos o directorios. Usado para modificar quién puede leer, escribir o ejecutar un archivo.
+8. **`chown`**: Cambia el propietario y el grupo de archivos o directorios. Usado para reasignar la propiedad de archivos y directorios.
+9. **`ps`**: Muestra información sobre los procesos en ejecución. Usado para ver los procesos activos en el sistema.
+10. **`top`**: Muestra una vista en tiempo real de los procesos en ejecución y el uso de recursos del sistema. Usado para monitorear el rendimiento del sistema.
 
-Los permisos de Unix controlan quién puede acceder y modificar archivos y directorios, proporcionando una manera flexible y segura de administrar un sistema. Cada archivo o directorio tiene permisos específicos para el propietario, el grupo y otros usuarios, y estos permisos determinan si los usuarios pueden leer, escribir o ejecutar el archivo o directorio. Los comandos como `chmod` y `ls -l` permiten visualizar y cambiar estos permisos.
+### **Manejador(es) de paquetes y comandos básicos**
+
+La distribución de Linux que estás usando tiene **`apt`** como manejador de paquetes, típico en sistemas basados en Debian y Ubuntu.
+
+### **Cinco comandos básicos de `apt` y sus usos:**
+
+1. **`apt update`**: Actualiza la lista de paquetes disponibles y sus versiones desde los repositorios configurados. Usado para asegurarse de que el sistema tenga información actualizada sobre los paquetes disponibles para instalar o actualizar.
+
+2. **`apt upgrade`**: Actualiza todos los paquetes instalados a las versiones más recientes disponibles en los repositorios. Usado para mantener el sistema actualizado con las últimas versiones de software.
+
+3. **`apt install [paquete]`**: Instala un nuevo paquete en el sistema. Por ejemplo, `apt install vim` instalaría el editor de texto Vim. Usado para añadir nuevos programas o herramientas al sistema.
+
+4. **`apt remove [paquete]`**: Elimina un paquete instalado del sistema. Por ejemplo, `apt remove vim` desinstalaría el editor de texto Vim. Usado para quitar software que ya no es necesario.
+
+5. **`apt search [término]`**: Busca paquetes que coincidan con el término proporcionado. Por ejemplo, `apt search apache` buscaría paquetes relacionados con Apache. Usado para encontrar paquetes disponibles en los repositorios.
+
+Estos comandos te permiten gestionar el software en tu sistema Linux de manera eficiente.
+   
