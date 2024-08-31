@@ -142,4 +142,52 @@
 
 ![Repositorio Github](Imagenes/Captura36.png)
 
+**- Usando el comando "netconfing", empezamos la configuracion, el primer paso el darle un nombre cualquiera**
 
+![Repositorio Github](Imagenes/Captura37.png)
+
+**- Al dominio en este caso usamos:**
+
+![Repositorio Github](Imagenes/Captura38.png)
+
+**- Seleccionamos "static IP"**
+
+![Repositorio Github](Imagenes/Captura39.png)
+
+**- Ingresamos la ip, cambiando los dos ultimos digitos por el del pc a trabajar, en mi caso "34"**
+
+![Repositorio Github](Imagenes/Captura40.png)
+
+**- El siguiente número, solo cambiamos el ultimo por un numero entre 60 y 65**
+
+![Repositorio Github](Imagenes/Captura41.png)
+
+**- En "IPv4 Addresses cambiamos en 24 por 16**
+
+![Repositorio Github](Imagenes/Captura42.png)
+
+**- Hacemos un reboot**
+
+![Repositorio Github](Imagenes/Captura43.png)
+
+![Repositorio Github](Imagenes/Captura44.png)
+
+**- Comprobamos la conexion a su mismo ping**
+
+![Repositorio Github](Imagenes/Captura45.png)
+
+**- Al intentar comprobar la conexion a google, notamos que fallo, por lo cual se tiene que arreglar nuevamente usando "netconfing", y cambiando donde anteriormente pusimos 60, por 61**
+
+![Repositorio Github](Imagenes/Captura46.png)
+
+**- Realizamos nuevamente la comprobacion:**
+
+![Repositorio Github](Imagenes/Captura47.png)
+
+**- Y finalmente comprobamos las conexiones que se nos piden**
+
+![Repositorio Github](Imagenes/Captura48.png)
+
+**- Para que se guarden los cambios a pesar de reiniciar la maquina entramos a la configuracion de la mascara y agregamos "NETMASK"**
+
+![Repositorio Github](Imagenes/Captura49.png)
